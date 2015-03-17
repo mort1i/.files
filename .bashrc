@@ -127,6 +127,7 @@ alias du='du -ach'
 alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
 alias gotpack='dpkg -l | grep -i '
 alias cleanboot="dpkg -l 'linux-*' | sed '/^ii/!d;/'"$(uname -r | sed "s/\(.*\)-\([^0-9]\+\)/\1/")"'/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d' | xargs sudo apt-get -y purge"
+alias nocomment='egrep -v "^\s+?#|^\s+?$"'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
