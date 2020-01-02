@@ -28,6 +28,7 @@
             "hidden": false,
             "name": "Ubuntu",
             "source": "Windows.Terminal.Wsl",
+            "commandline": "wsl ~",
             "colorScheme": "One Half Dark",
             "acrylicOpacity": 0.8,
             "useAcrylic": true
