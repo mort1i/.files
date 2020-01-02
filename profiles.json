@@ -30,7 +30,6 @@
             "source": "Windows.Terminal.Wsl",
             "commandline": "wsl ~",
             "historySize": 10000,
-            "icon": "ms-appdata:///roaming/ubuntu-32.png",
             "snapOnInput": true,
             "colorScheme": "One Half Dark",
             "acrylicOpacity": 0.8,
