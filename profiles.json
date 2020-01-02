@@ -30,6 +30,7 @@
             "source": "Windows.Terminal.Wsl",
             "commandline": "wsl ~",
             "historySize": 10000,
+            "padding": "4,0",
             "snapOnInput": true,
             "colorScheme": "One Half Dark",
             "acrylicOpacity": 0.8,
